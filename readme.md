@@ -10,3 +10,30 @@ Al primo click la lampadina si accende e nel bottone compare la scritta "Spegni"
 Al secondo click la lampadina si spegne e nel bottone compare la scritta "Accendi"
 E così via...
 Per fare questo bonus potremmo aver bisogno del metodo string.includes() :occhiolino:
+
+## obiettivo
+- accendere la lampadina cliccando il bottone
+
+## TO DO - lato html
+1. inserire in pagina immagine lampadina spenta --> lato html;
+2. aggiungere un bottone (button) con un una scritta "Accendi";
+
+3. inserire immagine lampadina accesa
+
+
+## TO DO -- LATO CSS
+
+
+
+
+## TO DO --LATO JS
+1. selezionare gli elementi della DOM
+- fare la variabile buttonEl;
+- creare variabile immagine lampadina spenta (?).
+
+2. collegare un EventListner al pulsante (in questo caso l'accensione);
+
+
+
+
+
