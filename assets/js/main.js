@@ -5,8 +5,11 @@ console.log("it works");
 
 //- fare la variabile buttonEl;
 const buttonEl = document.getElementById("button")
+//- creare variabile imgEl 
 const imgEl = document.getElementById('spento')
-//console.log(buttonEl);
+
+//2. collegare un EventListner al pulsante (in questo caso l'accensione);
+//buttonEl.addEventListener('click', ()=>{imgEl.classList('acceso')})
 
     buttonEl.addEventListener('click', ()=>{document.getElementById("button").innerHTML = "Spegni";
         imgEl.src= './img/yellow_lamp.png';
@@ -14,16 +17,10 @@ const imgEl = document.getElementById('spento')
 
     
 
-//- creare variabile imgEl 
 
 
-buttonEl.addEventListener('click', () => {
-        
-    document.getElementsByTagName("img"). src = "yellow_lamp.png";
-  });
 
-//2. collegare un EventListner al pulsante (in questo caso l'accensione);
-//buttonEl.addEventListener('click', ()=>{imgEl.classList('acceso')})
+
 
 
 
