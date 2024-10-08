@@ -7,7 +7,7 @@ console.log("it works");
 const buttonEl = document.getElementById("button")
 //console.log(buttonEl);
 
-    buttonEl.addEventListener('click', ()=>{document.getElementById("button").innerHTML = "I have changed!"});
+    buttonEl.addEventListener('click', ()=>{document.getElementById("button").innerHTML = "Spegni"});
 
 // HTML button element
 
