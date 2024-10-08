@@ -5,20 +5,22 @@ console.log("it works");
 
 //- fare la variabile buttonEl;
 const buttonEl = document.getElementById("button")
+const imgEl = document.getElementById('spento')
 //console.log(buttonEl);
 
-    buttonEl.addEventListener('click', ()=>{document.getElementById("button").innerHTML = "Spegni"});
+    buttonEl.addEventListener('click', ()=>{document.getElementById("button").innerHTML = "Spegni";
+        imgEl.src= './img/yellow_lamp.png';
+    });
 
-// HTML button element
-
-// Change label text
-//buttonEl.innerHTML = 'Spegni';
-
-//console.log(buttonEl.innerHTML);
-
+    
 
 //- creare variabile imgEl 
-//const imgEl = document.getElementsByTagName('img')
+
+
+buttonEl.addEventListener('click', () => {
+        
+    document.getElementsByTagName("img"). src = "yellow_lamp.png";
+  });
 
 //2. collegare un EventListner al pulsante (in questo caso l'accensione);
 //buttonEl.addEventListener('click', ()=>{imgEl.classList('acceso')})
